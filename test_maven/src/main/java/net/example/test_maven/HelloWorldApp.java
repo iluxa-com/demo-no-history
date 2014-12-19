@@ -8,6 +8,7 @@ public class HelloWorldApp {
 
     public static void main(String[] args) {
         logger.info("Hello World!");
+        //some text
     }
 }
 
