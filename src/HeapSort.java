@@ -54,7 +54,7 @@ class HeapUtils {
   }
 
 
-  //some shit added
+  //some shift added
 
 
   private static void swap(int[] array, int i, int j) {
