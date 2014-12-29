@@ -17,3 +17,4 @@ added after reset 2
 
 before nuclear atack
 +14
++15
