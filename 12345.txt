@@ -10,17 +10,20 @@ sda
 asd
 
 
+
+
+
 1
-
-
-
-
+2
+3
+4
+5
 15-57
-
+6
 added after reset
-
-
-
+7
+8
+9
 
 added after reset 2
 
@@ -29,3 +32,8 @@ before nuclear atack
 +15
 +16
 +17
+
+
+aaaaaaaa
+bbbbb
+cccccccccccc
