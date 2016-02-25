@@ -1,9 +1,174 @@
-000
-111
-222
-333
-444
-
-555
-
-0000
+[2016-02-25 14:00:46,659]  TRACE -                           root - [start] ================================================================ (start)
+[2016-02-25 14:00:46,681]  DEBUG - ins.launcher.ep.commands.Start - [start] JetLauncher process ID: 80652
+[2016-02-25 14:00:46,682]  DEBUG - ins.launcher.ep.commands.Start - [start] Using Java: <Upsource Home>\internal\java\windows-amd64\jre (version "1.8.0_65")
+[2016-02-25 14:00:46,682]  DEBUG - ins.launcher.ep.commands.Start - [start] Upsource home directory: E:\апсорс тест\Upsource_3.0.3149
+[2016-02-25 14:00:46,682]  DEBUG - ins.launcher.ep.commands.Start - [start] Command line: [start]
+[2016-02-25 14:00:46,682]  DEBUG - ins.launcher.ep.commands.Start - [start] JetLauncher logs directory: <Upsource Home>\logs
+[2016-02-25 14:00:46,683]  DEBUG - ins.launcher.ep.commands.Start - [start] JetLauncher version: 0.7.287
+[2016-02-25 14:00:46,683]  DEBUG - ins.launcher.ep.commands.Start - [start] Loaded launcher plugins: [ConfPathProvider, mac-daemon-commands, win-service-commands]
+[2016-02-25 14:00:46,683]  DEBUG - ins.launcher.ep.commands.Start - [start] Upsource config folder: <Upsource Home>\conf
+[2016-02-25 14:00:46,684]  DEBUG - .BaseLauncherConfig$BaseParser - [start] Using launcher configuration file: jar:file:/E:/апсорс%20тест/Upsource_3.0.3149/launcher/lib/upsource-launcher.jar!/launcher.java.config
+[2016-02-25 14:00:46,703]  DEBUG - launcher.util.LauncherExecutor - [start] Starting launcher process with command: [E:\апсорс тест\Upsource_3.0.3149\internal\java\windows-amd64\jre\bin\javaw.exe, -Djl.service=Upsource Launcher, -Djl.home=E:\апсорс тест\Upsource_3.0.3149, -ea, -Xmx5m, -XX:+HeapDumpOnOutOfMemoryError, -Dfile.encoding=UTF-8, -XX:MaxMetaspaceSize=15m, -jar, launcher\lib\upsource-launcher.jar, do, start] (at path: "E:\апсорс тест\Upsource_3.0.3149", system properties: {java.awt.headless=true})
+[2016-02-25 14:00:47,012]  TRACE -                           root - ================================================================ (start)
+[2016-02-25 14:00:47,035]  DEBUG - rains.launcher.ep.commands.Run - JetLauncher process ID: 67412
+[2016-02-25 14:00:47,036]  DEBUG - rains.launcher.ep.commands.Run - Using Java: <Upsource Home>\internal\java\windows-amd64\jre (version "1.8.0_65")
+[2016-02-25 14:00:47,036]  DEBUG - rains.launcher.ep.commands.Run - Upsource home directory: E:\апсорс тест\Upsource_3.0.3149
+[2016-02-25 14:00:47,036]  DEBUG - rains.launcher.ep.commands.Run - Command line: [do, start]
+[2016-02-25 14:00:47,036]  DEBUG - rains.launcher.ep.commands.Run - JetLauncher logs directory: <Upsource Home>\logs
+[2016-02-25 14:00:47,037]  DEBUG - rains.launcher.ep.commands.Run - JetLauncher version: 0.7.287
+[2016-02-25 14:00:47,037]  DEBUG - rains.launcher.ep.commands.Run - Loaded launcher plugins: [ConfPathProvider, mac-daemon-commands, win-service-commands]
+[2016-02-25 14:00:47,037]  DEBUG - rains.launcher.ep.commands.Run - Upsource config folder: <Upsource Home>\conf
+[2016-02-25 14:00:47,040]  DEBUG - .BaseLauncherConfig$BaseParser - Using launcher configuration file: jar:file:/E:/апсорс%20тест/Upsource_3.0.3149/launcher/lib/upsource-launcher.jar!/launcher.java.config
+[2016-02-25 14:00:47,063]   INFO - rains.launcher.ep.commands.Run - Starting Upsource...
+[2016-02-25 14:00:47,076]  DEBUG - ains.launcher.run.AgentProcess - Thu Feb 25 14:00:47 MSK 2016 ==> Start launch
+[2016-02-25 14:00:47,079]  DEBUG - ins.launcher.util.LauncherUtil - Deleting <Upsource Home>\logs\upsource.pid
+[2016-02-25 14:00:47,079]  DEBUG - ins.launcher.util.LauncherUtil - Deleting <Upsource Home>\logs\upsource.port
+[2016-02-25 14:00:47,080]  DEBUG - ins.launcher.util.LauncherUtil - Deleting <Upsource Home>\logs\upsource.exit.flag
+[2016-02-25 14:00:47,091]  DEBUG - tbrains.launcher.run.JavaAgent - Launching Upsource process with command: [E:\апсорс тест\Upsource_3.0.3149\internal\java\windows-amd64\jre\bin\java.exe, -Djl.service=Upsource, -Djl.home=E:\апсорс тест\Upsource_3.0.3149, -ea, -XX:+HeapDumpOnOutOfMemoryError, -XX:HeapDumpPath=logs, -XX:ErrorFile=logs\hs_err_pid%p.log, -Dfile.encoding=UTF-8, -XX:MaxMetaspaceSize=150m, -Xmx384m, -Djetbrains.ring.jul_to_slf4j.log.level=INFO, -jar, launcher\lib\app-wrapper\upsource-wrapper.jar, AppStarter, com.jetbrains.bundle.bootstrap.Bundle] (at path: "E:\апсорс тест\Upsource_3.0.3149", system properties: {launcher.app.home=E:\апсорс тест\Upsource_3.0.3149, launcher.app.conf.dir=E:\апсорс тест\Upsource_3.0.3149\conf, java.awt.headless=true, launcher.app.name=Upsource})
+[2016-02-25 14:00:52,298]   INFO - ins.launcher.ep.commands.Start - [start] Upsource is running
+[2016-02-25 14:00:52,299]  TRACE -                           root - [start] ================================================================ (finish)
+[2016-02-25 14:00:46,659]  TRACE -                           root - [start] ================================================================ (start)
+[2016-02-25 14:00:46,681]  DEBUG - ins.launcher.ep.commands.Start - [start] JetLauncher process ID: 80652
+[2016-02-25 14:00:46,682]  DEBUG - ins.launcher.ep.commands.Start - [start] Using Java: <Upsource Home>\internal\java\windows-amd64\jre (version "1.8.0_65")
+[2016-02-25 14:00:46,682]  DEBUG - ins.launcher.ep.commands.Start - [start] Upsource home directory: E:\апсорс тест\Upsource_3.0.3149
+[2016-02-25 14:00:46,682]  DEBUG - ins.launcher.ep.commands.Start - [start] Command line: [start]
+[2016-02-25 14:00:46,682]  DEBUG - ins.launcher.ep.commands.Start - [start] JetLauncher logs directory: <Upsource Home>\logs
+[2016-02-25 14:00:46,683]  DEBUG - ins.launcher.ep.commands.Start - [start] JetLauncher version: 0.7.287
+[2016-02-25 14:00:46,683]  DEBUG - ins.launcher.ep.commands.Start - [start] Loaded launcher plugins: [ConfPathProvider, mac-daemon-commands, win-service-commands]
+[2016-02-25 14:00:46,683]  DEBUG - ins.launcher.ep.commands.Start - [start] Upsource config folder: <Upsource Home>\conf
+[2016-02-25 14:00:46,684]  DEBUG - .BaseLauncherConfig$BaseParser - [start] Using launcher configuration file: jar:file:/E:/апсорс%20тест/Upsource_3.0.3149/launcher/lib/upsource-launcher.jar!/launcher.java.config
+[2016-02-25 14:00:46,703]  DEBUG - launcher.util.LauncherExecutor - [start] Starting launcher process with command: [E:\апсорс тест\Upsource_3.0.3149\internal\java\windows-amd64\jre\bin\javaw.exe, -Djl.service=Upsource Launcher, -Djl.home=E:\апсорс тест\Upsource_3.0.3149, -ea, -Xmx5m, -XX:+HeapDumpOnOutOfMemoryError, -Dfile.encoding=UTF-8, -XX:MaxMetaspaceSize=15m, -jar, launcher\lib\upsource-launcher.jar, do, start] (at path: "E:\апсорс тест\Upsource_3.0.3149", system properties: {java.awt.headless=true})
+[2016-02-25 14:00:47,012]  TRACE -                           root - ================================================================ (start)
+[2016-02-25 14:00:47,035]  DEBUG - rains.launcher.ep.commands.Run - JetLauncher process ID: 67412
+[2016-02-25 14:00:47,036]  DEBUG - rains.launcher.ep.commands.Run - Using Java: <Upsource Home>\internal\java\windows-amd64\jre (version "1.8.0_65")
+[2016-02-25 14:00:47,036]  DEBUG - rains.launcher.ep.commands.Run - Upsource home directory: E:\апсорс тест\Upsource_3.0.3149
+[2016-02-25 14:00:47,036]  DEBUG - rains.launcher.ep.commands.Run - Command line: [do, start]
+[2016-02-25 14:00:47,036]  DEBUG - rains.launcher.ep.commands.Run - JetLauncher logs directory: <Upsource Home>\logs
+[2016-02-25 14:00:47,037]  DEBUG - rains.launcher.ep.commands.Run - JetLauncher version: 0.7.287
+[2016-02-25 14:00:47,037]  DEBUG - rains.launcher.ep.commands.Run - Loaded launcher plugins: [ConfPathProvider, mac-daemon-commands, win-service-commands]
+[2016-02-25 14:00:47,037]  DEBUG - rains.launcher.ep.commands.Run - Upsource config folder: <Upsource Home>\conf
+[2016-02-25 14:00:47,040]  DEBUG - .BaseLauncherConfig$BaseParser - Using launcher configuration file: jar:file:/E:/апсорс%20тест/Upsource_3.0.3149/launcher/lib/upsource-launcher.jar!/launcher.java.config
+[2016-02-25 14:00:47,063]   INFO - rains.launcher.ep.commands.Run - Starting Upsource...
+[2016-02-25 14:00:47,076]  DEBUG - ains.launcher.run.AgentProcess - Thu Feb 25 14:00:47 MSK 2016 ==> Start launch
+[2016-02-25 14:00:47,079]  DEBUG - ins.launcher.util.LauncherUtil - Deleting <Upsource Home>\logs\upsource.pid
+[2016-02-25 14:00:47,079]  DEBUG - ins.launcher.util.LauncherUtil - Deleting <Upsource Home>\logs\upsource.port
+[2016-02-25 14:00:47,080]  DEBUG - ins.launcher.util.LauncherUtil - Deleting <Upsource Home>\logs\upsource.exit.flag
+[2016-02-25 14:00:47,091]  DEBUG - tbrains.launcher.run.JavaAgent - Launching Upsource process with command: [E:\апсорс тест\Upsource_3.0.3149\internal\java\windows-amd64\jre\bin\java.exe, -Djl.service=Upsource, -Djl.home=E:\апсорс тест\Upsource_3.0.3149, -ea, -XX:+HeapDumpOnOutOfMemoryError, -XX:HeapDumpPath=logs, -XX:ErrorFile=logs\hs_err_pid%p.log, -Dfile.encoding=UTF-8, -XX:MaxMetaspaceSize=150m, -Xmx384m, -Djetbrains.ring.jul_to_slf4j.log.level=INFO, -jar, launcher\lib\app-wrapper\upsource-wrapper.jar, AppStarter, com.jetbrains.bundle.bootstrap.Bundle] (at path: "E:\апсорс тест\Upsource_3.0.3149", system properties: {launcher.app.home=E:\апсорс тест\Upsource_3.0.3149, launcher.app.conf.dir=E:\апсорс тест\Upsource_3.0.3149\conf, java.awt.headless=true, launcher.app.name=Upsource})
+[2016-02-25 14:00:52,298]   INFO - ins.launcher.ep.commands.Start - [start] Upsource is running
+[2016-02-25 14:00:52,299]  TRACE -                           root - [start] ================================================================ (finish)
+[2016-02-25 14:00:46,659]  TRACE -                           root - [start] ================================================================ (start)
+[2016-02-25 14:00:46,681]  DEBUG - ins.launcher.ep.commands.Start - [start] JetLauncher process ID: 80652
+[2016-02-25 14:00:46,682]  DEBUG - ins.launcher.ep.commands.Start - [start] Using Java: <Upsource Home>\internal\java\windows-amd64\jre (version "1.8.0_65")
+[2016-02-25 14:00:46,682]  DEBUG - ins.launcher.ep.commands.Start - [start] Upsource home directory: E:\апсорс тест\Upsource_3.0.3149
+[2016-02-25 14:00:46,682]  DEBUG - ins.launcher.ep.commands.Start - [start] Command line: [start]
+[2016-02-25 14:00:46,682]  DEBUG - ins.launcher.ep.commands.Start - [start] JetLauncher logs directory: <Upsource Home>\logs
+[2016-02-25 14:00:46,683]  DEBUG - ins.launcher.ep.commands.Start - [start] JetLauncher version: 0.7.287
+[2016-02-25 14:00:46,683]  DEBUG - ins.launcher.ep.commands.Start - [start] Loaded launcher plugins: [ConfPathProvider, mac-daemon-commands, win-service-commands]
+[2016-02-25 14:00:46,683]  DEBUG - ins.launcher.ep.commands.Start - [start] Upsource config folder: <Upsource Home>\conf
+[2016-02-25 14:00:46,684]  DEBUG - .BaseLauncherConfig$BaseParser - [start] Using launcher configuration file: jar:file:/E:/апсорс%20тест/Upsource_3.0.3149/launcher/lib/upsource-launcher.jar!/launcher.java.config
+[2016-02-25 14:00:46,703]  DEBUG - launcher.util.LauncherExecutor - [start] Starting launcher process with command: [E:\апсорс тест\Upsource_3.0.3149\internal\java\windows-amd64\jre\bin\javaw.exe, -Djl.service=Upsource Launcher, -Djl.home=E:\апсорс тест\Upsource_3.0.3149, -ea, -Xmx5m, -XX:+HeapDumpOnOutOfMemoryError, -Dfile.encoding=UTF-8, -XX:MaxMetaspaceSize=15m, -jar, launcher\lib\upsource-launcher.jar, do, start] (at path: "E:\апсорс тест\Upsource_3.0.3149", system properties: {java.awt.headless=true})
+[2016-02-25 14:00:47,012]  TRACE -                           root - ================================================================ (start)
+[2016-02-25 14:00:47,035]  DEBUG - rains.launcher.ep.commands.Run - JetLauncher process ID: 67412
+[2016-02-25 14:00:47,036]  DEBUG - rains.launcher.ep.commands.Run - Using Java: <Upsource Home>\internal\java\windows-amd64\jre (version "1.8.0_65")
+[2016-02-25 14:00:47,036]  DEBUG - rains.launcher.ep.commands.Run - Upsource home directory: E:\апсорс тест\Upsource_3.0.3149
+[2016-02-25 14:00:47,036]  DEBUG - rains.launcher.ep.commands.Run - Command line: [do, start]
+[2016-02-25 14:00:47,036]  DEBUG - rains.launcher.ep.commands.Run - JetLauncher logs directory: <Upsource Home>\logs
+[2016-02-25 14:00:47,037]  DEBUG - rains.launcher.ep.commands.Run - JetLauncher version: 0.7.287
+[2016-02-25 14:00:47,037]  DEBUG - rains.launcher.ep.commands.Run - Loaded launcher plugins: [ConfPathProvider, mac-daemon-commands, win-service-commands]
+[2016-02-25 14:00:47,037]  DEBUG - rains.launcher.ep.commands.Run - Upsource config folder: <Upsource Home>\conf
+[2016-02-25 14:00:47,040]  DEBUG - .BaseLauncherConfig$BaseParser - Using launcher configuration file: jar:file:/E:/апсорс%20тест/Upsource_3.0.3149/launcher/lib/upsource-launcher.jar!/launcher.java.config
+[2016-02-25 14:00:47,063]   INFO - rains.launcher.ep.commands.Run - Starting Upsource...
+[2016-02-25 14:00:47,076]  DEBUG - ains.launcher.run.AgentProcess - Thu Feb 25 14:00:47 MSK 2016 ==> Start launch
+[2016-02-25 14:00:47,079]  DEBUG - ins.launcher.util.LauncherUtil - Deleting <Upsource Home>\logs\upsource.pid
+[2016-02-25 14:00:47,079]  DEBUG - ins.launcher.util.LauncherUtil - Deleting <Upsource Home>\logs\upsource.port
+[2016-02-25 14:00:47,080]  DEBUG - ins.launcher.util.LauncherUtil - Deleting <Upsource Home>\logs\upsource.exit.flag
+[2016-02-25 14:00:47,091]  DEBUG - tbrains.launcher.run.JavaAgent - Launching Upsource process with command: [E:\апсорс тест\Upsource_3.0.3149\internal\java\windows-amd64\jre\bin\java.exe, -Djl.service=Upsource, -Djl.home=E:\апсорс тест\Upsource_3.0.3149, -ea, -XX:+HeapDumpOnOutOfMemoryError, -XX:HeapDumpPath=logs, -XX:ErrorFile=logs\hs_err_pid%p.log, -Dfile.encoding=UTF-8, -XX:MaxMetaspaceSize=150m, -Xmx384m, -Djetbrains.ring.jul_to_slf4j.log.level=INFO, -jar, launcher\lib\app-wrapper\upsource-wrapper.jar, AppStarter, com.jetbrains.bundle.bootstrap.Bundle] (at path: "E:\апсорс тест\Upsource_3.0.3149", system properties: {launcher.app.home=E:\апсорс тест\Upsource_3.0.3149, launcher.app.conf.dir=E:\апсорс тест\Upsource_3.0.3149\conf, java.awt.headless=true, launcher.app.name=Upsource})
+[2016-02-25 14:00:52,298]   INFO - ins.launcher.ep.commands.Start - [start] Upsource is running
+[2016-02-25 14:00:52,299]  TRACE -                           root - [start] ================================================================ (finish)
+[2016-02-25 14:00:46,659]  TRACE -                           root - [start] ================================================================ (start)
+[2016-02-25 14:00:46,681]  DEBUG - ins.launcher.ep.commands.Start - [start] JetLauncher process ID: 80652
+[2016-02-25 14:00:46,682]  DEBUG - ins.launcher.ep.commands.Start - [start] Using Java: <Upsource Home>\internal\java\windows-amd64\jre (version "1.8.0_65")
+[2016-02-25 14:00:46,682]  DEBUG - ins.launcher.ep.commands.Start - [start] Upsource home directory: E:\апсорс тест\Upsource_3.0.3149
+[2016-02-25 14:00:46,682]  DEBUG - ins.launcher.ep.commands.Start - [start] Command line: [start]
+[2016-02-25 14:00:46,682]  DEBUG - ins.launcher.ep.commands.Start - [start] JetLauncher logs directory: <Upsource Home>\logs
+[2016-02-25 14:00:46,683]  DEBUG - ins.launcher.ep.commands.Start - [start] JetLauncher version: 0.7.287
+[2016-02-25 14:00:46,683]  DEBUG - ins.launcher.ep.commands.Start - [start] Loaded launcher plugins: [ConfPathProvider, mac-daemon-commands, win-service-commands]
+[2016-02-25 14:00:46,683]  DEBUG - ins.launcher.ep.commands.Start - [start] Upsource config folder: <Upsource Home>\conf
+[2016-02-25 14:00:46,684]  DEBUG - .BaseLauncherConfig$BaseParser - [start] Using launcher configuration file: jar:file:/E:/апсорс%20тест/Upsource_3.0.3149/launcher/lib/upsource-launcher.jar!/launcher.java.config
+[2016-02-25 14:00:46,703]  DEBUG - launcher.util.LauncherExecutor - [start] Starting launcher process with command: [E:\апсорс тест\Upsource_3.0.3149\internal\java\windows-amd64\jre\bin\javaw.exe, -Djl.service=Upsource Launcher, -Djl.home=E:\апсорс тест\Upsource_3.0.3149, -ea, -Xmx5m, -XX:+HeapDumpOnOutOfMemoryError, -Dfile.encoding=UTF-8, -XX:MaxMetaspaceSize=15m, -jar, launcher\lib\upsource-launcher.jar, do, start] (at path: "E:\апсорс тест\Upsource_3.0.3149", system properties: {java.awt.headless=true})
+[2016-02-25 14:00:47,012]  TRACE -                           root - ================================================================ (start)
+[2016-02-25 14:00:47,035]  DEBUG - rains.launcher.ep.commands.Run - JetLauncher process ID: 67412
+[2016-02-25 14:00:47,036]  DEBUG - rains.launcher.ep.commands.Run - Using Java: <Upsource Home>\internal\java\windows-amd64\jre (version "1.8.0_65")
+[2016-02-25 14:00:47,036]  DEBUG - rains.launcher.ep.commands.Run - Upsource home directory: E:\апсорс тест\Upsource_3.0.3149
+[2016-02-25 14:00:47,036]  DEBUG - rains.launcher.ep.commands.Run - Command line: [do, start]
+[2016-02-25 14:00:47,036]  DEBUG - rains.launcher.ep.commands.Run - JetLauncher logs directory: <Upsource Home>\logs
+[2016-02-25 14:00:47,037]  DEBUG - rains.launcher.ep.commands.Run - JetLauncher version: 0.7.287
+[2016-02-25 14:00:47,037]  DEBUG - rains.launcher.ep.commands.Run - Loaded launcher plugins: [ConfPathProvider, mac-daemon-commands, win-service-commands]
+[2016-02-25 14:00:47,037]  DEBUG - rains.launcher.ep.commands.Run - Upsource config folder: <Upsource Home>\conf
+[2016-02-25 14:00:47,040]  DEBUG - .BaseLauncherConfig$BaseParser - Using launcher configuration file: jar:file:/E:/апсорс%20тест/Upsource_3.0.3149/launcher/lib/upsource-launcher.jar!/launcher.java.config
+[2016-02-25 14:00:47,063]   INFO - rains.launcher.ep.commands.Run - Starting Upsource...
+[2016-02-25 14:00:47,076]  DEBUG - ains.launcher.run.AgentProcess - Thu Feb 25 14:00:47 MSK 2016 ==> Start launch
+[2016-02-25 14:00:47,079]  DEBUG - ins.launcher.util.LauncherUtil - Deleting <Upsource Home>\logs\upsource.pid
+[2016-02-25 14:00:47,079]  DEBUG - ins.launcher.util.LauncherUtil - Deleting <Upsource Home>\logs\upsource.port
+[2016-02-25 14:00:47,080]  DEBUG - ins.launcher.util.LauncherUtil - Deleting <Upsource Home>\logs\upsource.exit.flag
+[2016-02-25 14:00:47,091]  DEBUG - tbrains.launcher.run.JavaAgent - Launching Upsource process with command: [E:\апсорс тест\Upsource_3.0.3149\internal\java\windows-amd64\jre\bin\java.exe, -Djl.service=Upsource, -Djl.home=E:\апсорс тест\Upsource_3.0.3149, -ea, -XX:+HeapDumpOnOutOfMemoryError, -XX:HeapDumpPath=logs, -XX:ErrorFile=logs\hs_err_pid%p.log, -Dfile.encoding=UTF-8, -XX:MaxMetaspaceSize=150m, -Xmx384m, -Djetbrains.ring.jul_to_slf4j.log.level=INFO, -jar, launcher\lib\app-wrapper\upsource-wrapper.jar, AppStarter, com.jetbrains.bundle.bootstrap.Bundle] (at path: "E:\апсорс тест\Upsource_3.0.3149", system properties: {launcher.app.home=E:\апсорс тест\Upsource_3.0.3149, launcher.app.conf.dir=E:\апсорс тест\Upsource_3.0.3149\conf, java.awt.headless=true, launcher.app.name=Upsource})
+[2016-02-25 14:00:52,298]   INFO - ins.launcher.ep.commands.Start - [start] Upsource is running
+[2016-02-25 14:00:52,299]  TRACE -                           root - [start] ================================================================ (finish)
+[2016-02-25 14:00:46,659]  TRACE -                           root - [start] ================================================================ (start)
+[2016-02-25 14:00:46,681]  DEBUG - ins.launcher.ep.commands.Start - [start] JetLauncher process ID: 80652
+[2016-02-25 14:00:46,682]  DEBUG - ins.launcher.ep.commands.Start - [start] Using Java: <Upsource Home>\internal\java\windows-amd64\jre (version "1.8.0_65")
+[2016-02-25 14:00:46,682]  DEBUG - ins.launcher.ep.commands.Start - [start] Upsource home directory: E:\апсорс тест\Upsource_3.0.3149
+[2016-02-25 14:00:46,682]  DEBUG - ins.launcher.ep.commands.Start - [start] Command line: [start]
+[2016-02-25 14:00:46,682]  DEBUG - ins.launcher.ep.commands.Start - [start] JetLauncher logs directory: <Upsource Home>\logs
+[2016-02-25 14:00:46,683]  DEBUG - ins.launcher.ep.commands.Start - [start] JetLauncher version: 0.7.287
+[2016-02-25 14:00:46,683]  DEBUG - ins.launcher.ep.commands.Start - [start] Loaded launcher plugins: [ConfPathProvider, mac-daemon-commands, win-service-commands]
+[2016-02-25 14:00:46,683]  DEBUG - ins.launcher.ep.commands.Start - [start] Upsource config folder: <Upsource Home>\conf
+[2016-02-25 14:00:46,684]  DEBUG - .BaseLauncherConfig$BaseParser - [start] Using launcher configuration file: jar:file:/E:/апсорс%20тест/Upsource_3.0.3149/launcher/lib/upsource-launcher.jar!/launcher.java.config
+[2016-02-25 14:00:46,703]  DEBUG - launcher.util.LauncherExecutor - [start] Starting launcher process with command: [E:\апсорс тест\Upsource_3.0.3149\internal\java\windows-amd64\jre\bin\javaw.exe, -Djl.service=Upsource Launcher, -Djl.home=E:\апсорс тест\Upsource_3.0.3149, -ea, -Xmx5m, -XX:+HeapDumpOnOutOfMemoryError, -Dfile.encoding=UTF-8, -XX:MaxMetaspaceSize=15m, -jar, launcher\lib\upsource-launcher.jar, do, start] (at path: "E:\апсорс тест\Upsource_3.0.3149", system properties: {java.awt.headless=true})
+[2016-02-25 14:00:47,012]  TRACE -                           root - ================================================================ (start)
+[2016-02-25 14:00:47,035]  DEBUG - rains.launcher.ep.commands.Run - JetLauncher process ID: 67412
+[2016-02-25 14:00:47,036]  DEBUG - rains.launcher.ep.commands.Run - Using Java: <Upsource Home>\internal\java\windows-amd64\jre (version "1.8.0_65")
+[2016-02-25 14:00:47,036]  DEBUG - rains.launcher.ep.commands.Run - Upsource home directory: E:\апсорс тест\Upsource_3.0.3149
+[2016-02-25 14:00:47,036]  DEBUG - rains.launcher.ep.commands.Run - Command line: [do, start]
+[2016-02-25 14:00:47,036]  DEBUG - rains.launcher.ep.commands.Run - JetLauncher logs directory: <Upsource Home>\logs
+[2016-02-25 14:00:47,037]  DEBUG - rains.launcher.ep.commands.Run - JetLauncher version: 0.7.287
+[2016-02-25 14:00:47,037]  DEBUG - rains.launcher.ep.commands.Run - Loaded launcher plugins: [ConfPathProvider, mac-daemon-commands, win-service-commands]
+[2016-02-25 14:00:47,037]  DEBUG - rains.launcher.ep.commands.Run - Upsource config folder: <Upsource Home>\conf
+[2016-02-25 14:00:47,040]  DEBUG - .BaseLauncherConfig$BaseParser - Using launcher configuration file: jar:file:/E:/апсорс%20тест/Upsource_3.0.3149/launcher/lib/upsource-launcher.jar!/launcher.java.config
+[2016-02-25 14:00:47,063]   INFO - rains.launcher.ep.commands.Run - Starting Upsource...
+[2016-02-25 14:00:47,076]  DEBUG - ains.launcher.run.AgentProcess - Thu Feb 25 14:00:47 MSK 2016 ==> Start launch
+[2016-02-25 14:00:47,079]  DEBUG - ins.launcher.util.LauncherUtil - Deleting <Upsource Home>\logs\upsource.pid
+[2016-02-25 14:00:47,079]  DEBUG - ins.launcher.util.LauncherUtil - Deleting <Upsource Home>\logs\upsource.port
+[2016-02-25 14:00:47,080]  DEBUG - ins.launcher.util.LauncherUtil - Deleting <Upsource Home>\logs\upsource.exit.flag
+[2016-02-25 14:00:47,091]  DEBUG - tbrains.launcher.run.JavaAgent - Launching Upsource process with command: [E:\апсорс тест\Upsource_3.0.3149\internal\java\windows-amd64\jre\bin\java.exe, -Djl.service=Upsource, -Djl.home=E:\апсорс тест\Upsource_3.0.3149, -ea, -XX:+HeapDumpOnOutOfMemoryError, -XX:HeapDumpPath=logs, -XX:ErrorFile=logs\hs_err_pid%p.log, -Dfile.encoding=UTF-8, -XX:MaxMetaspaceSize=150m, -Xmx384m, -Djetbrains.ring.jul_to_slf4j.log.level=INFO, -jar, launcher\lib\app-wrapper\upsource-wrapper.jar, AppStarter, com.jetbrains.bundle.bootstrap.Bundle] (at path: "E:\апсорс тест\Upsource_3.0.3149", system properties: {launcher.app.home=E:\апсорс тест\Upsource_3.0.3149, launcher.app.conf.dir=E:\апсорс тест\Upsource_3.0.3149\conf, java.awt.headless=true, launcher.app.name=Upsource})
+[2016-02-25 14:00:52,298]   INFO - ins.launcher.ep.commands.Start - [start] Upsource is running
+[2016-02-25 14:00:52,299]  TRACE -                           root - [start] ================================================================ (finish)
+[2016-02-25 14:00:46,659]  TRACE -                           root - [start] ================================================================ (start)
+[2016-02-25 14:00:46,681]  DEBUG - ins.launcher.ep.commands.Start - [start] JetLauncher process ID: 80652
+[2016-02-25 14:00:46,682]  DEBUG - ins.launcher.ep.commands.Start - [start] Using Java: <Upsource Home>\internal\java\windows-amd64\jre (version "1.8.0_65")
+[2016-02-25 14:00:46,682]  DEBUG - ins.launcher.ep.commands.Start - [start] Upsource home directory: E:\апсорс тест\Upsource_3.0.3149
+[2016-02-25 14:00:46,682]  DEBUG - ins.launcher.ep.commands.Start - [start] Command line: [start]
+[2016-02-25 14:00:46,682]  DEBUG - ins.launcher.ep.commands.Start - [start] JetLauncher logs directory: <Upsource Home>\logs
+[2016-02-25 14:00:46,683]  DEBUG - ins.launcher.ep.commands.Start - [start] JetLauncher version: 0.7.287
+[2016-02-25 14:00:46,683]  DEBUG - ins.launcher.ep.commands.Start - [start] Loaded launcher plugins: [ConfPathProvider, mac-daemon-commands, win-service-commands]
+[2016-02-25 14:00:46,683]  DEBUG - ins.launcher.ep.commands.Start - [start] Upsource config folder: <Upsource Home>\conf
+[2016-02-25 14:00:46,684]  DEBUG - .BaseLauncherConfig$BaseParser - [start] Using launcher configuration file: jar:file:/E:/апсорс%20тест/Upsource_3.0.3149/launcher/lib/upsource-launcher.jar!/launcher.java.config
+[2016-02-25 14:00:46,703]  DEBUG - launcher.util.LauncherExecutor - [start] Starting launcher process with command: [E:\апсорс тест\Upsource_3.0.3149\internal\java\windows-amd64\jre\bin\javaw.exe, -Djl.service=Upsource Launcher, -Djl.home=E:\апсорс тест\Upsource_3.0.3149, -ea, -Xmx5m, -XX:+HeapDumpOnOutOfMemoryError, -Dfile.encoding=UTF-8, -XX:MaxMetaspaceSize=15m, -jar, launcher\lib\upsource-launcher.jar, do, start] (at path: "E:\апсорс тест\Upsource_3.0.3149", system properties: {java.awt.headless=true})
+[2016-02-25 14:00:47,012]  TRACE -                           root - ================================================================ (start)
+[2016-02-25 14:00:47,035]  DEBUG - rains.launcher.ep.commands.Run - JetLauncher process ID: 67412
+[2016-02-25 14:00:47,036]  DEBUG - rains.launcher.ep.commands.Run - Using Java: <Upsource Home>\internal\java\windows-amd64\jre (version "1.8.0_65")
+[2016-02-25 14:00:47,036]  DEBUG - rains.launcher.ep.commands.Run - Upsource home directory: E:\апсорс тест\Upsource_3.0.3149
+[2016-02-25 14:00:47,036]  DEBUG - rains.launcher.ep.commands.Run - Command line: [do, start]
+[2016-02-25 14:00:47,036]  DEBUG - rains.launcher.ep.commands.Run - JetLauncher logs directory: <Upsource Home>\logs
+[2016-02-25 14:00:47,037]  DEBUG - rains.launcher.ep.commands.Run - JetLauncher version: 0.7.287
+[2016-02-25 14:00:47,037]  DEBUG - rains.launcher.ep.commands.Run - Loaded launcher plugins: [ConfPathProvider, mac-daemon-commands, win-service-commands]
+[2016-02-25 14:00:47,037]  DEBUG - rains.launcher.ep.commands.Run - Upsource config folder: <Upsource Home>\conf
+[2016-02-25 14:00:47,040]  DEBUG - .BaseLauncherConfig$BaseParser - Using launcher configuration file: jar:file:/E:/апсорс%20тест/Upsource_3.0.3149/launcher/lib/upsource-launcher.jar!/launcher.java.config
+[2016-02-25 14:00:47,063]   INFO - rains.launcher.ep.commands.Run - Starting Upsource...
+[2016-02-25 14:00:47,076]  DEBUG - ains.launcher.run.AgentProcess - Thu Feb 25 14:00:47 MSK 2016 ==> Start launch
+[2016-02-25 14:00:47,079]  DEBUG - ins.launcher.util.LauncherUtil - Deleting <Upsource Home>\logs\upsource.pid
+[2016-02-25 14:00:47,079]  DEBUG - ins.launcher.util.LauncherUtil - Deleting <Upsource Home>\logs\upsource.port[2016-02-25 14:00:47,079]  DEBUG - ins.launcher.util.LauncherUtil - Deleting <Upsource Home>\logs\upsource.port[2016-02-25 14:00:47,079]  DEBUG - ins.launcher.util.LauncherUtil - Deleting <Upsource Home>\logs\upsource.port[2016-02-25 14:00:47,079]  DEBUG - ins.launcher.util.LauncherUtil - Deleting <Upsource Home>\logs\upsource.port[2016-02-25 14:00:47,079]  DEBUG - ins.launcher.util.LauncherUtil - Deleting <Upsource Home>\logs\upsource.port[2016-02-25 14:00:47,079]  DEBUG - ins.launcher.util.LauncherUtil - Deleting <Upsource Home>\logs\upsource.port[2016-02-25 14:00:47,079]  DEBUG - ins.launcher.util.LauncherUtil - Deleting <Upsource Home>\logs\upsource.port
+[2016-02-25 14:00:47,080]  DEBUG - ins.launcher.util.LauncherUtil - Deleting <Upsource Home>\logs\upsource.exit.flag
+[2016-02-25 14:00:47,091]  DEBUG - tbrains.launcher.run.JavaAgent - Launching Upsource process with command: [E:\апсорс тест\Upsource_3.0.3149\internal\java\windows-amd64\jre\bin\java.exe, -Djl.service=Upsource, -Djl.home=E:\апсорс тест\Upsource_3.0.3149, -ea, -XX:+HeapDumpOnOutOfMemoryError, -XX:HeapDumpPath=logs, -XX:ErrorFile=logs\hs_err_pid%p.log, -Dfile.encoding=UTF-8, -XX:MaxMetaspaceSize=150m, -Xmx384m, -Djetbrains.ring.jul_to_slf4j.log.level=INFO, -jar, launcher\lib\app-wrapper\upsource-wrapper.jar, AppStarter, com.jetbrains.bundle.bootstrap.Bundle] (at path: "E:\апсорс тест\Upsource_3.0.3149", system properties: {launcher.app.home=E:\апсорс тест\Upsource_3.0.3149, launcher.app.conf.dir=E:\апсорс тест\Upsource_3.0.3149\conf, java.awt.headless=true, launcher.app.name=Upsource})
+[2016-02-25 14:00:52,298]   INFO - ins.launcher.ep.commands.Start - [start] Upsource is running
+[2016-02-25 14:00:52,299]  TRACE -                           root - [start] ================================================================ (finish)
